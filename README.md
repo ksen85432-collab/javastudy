@@ -13,7 +13,13 @@
 操作説明
 新規登録をクリックしアカウントの作成
               ↓
-ユーザー名とメールアドレス、パスワードを入力し登録を押す。
+ユーザー名とメールアドレス、パスワードを入力し登録ボタンをクリック。
 <img width="511" height="540" alt="スクリーンショット 2026-09-22 102624" src="https://github.com/user-attachments/assets/7e13076e-1935-48b6-884f-43378ff14e77" />
               ↓
-
+登録したメールアドレスとパスワードを入力しログインボタンをクリック。
+<img width="440" height="457" alt="スクリーンショット 2026-09-22 110513" src="https://github.com/user-attachments/assets/54b2b623-9b35-4127-9cff-ff3e41ff1a4b" />
+              ↓
+投稿内容を入力して投稿ボタンをクリック。
+<img width="682" height="757" alt="スクリーンショット 2026-09-22 111145" src="https://github.com/user-attachments/assets/518bf0a2-af5a-4e8a-a26f-43145fe94cf9" />
+              ↓
+ログアウトをクリックするとっ最初の画面に戻る。
