@@ -23,3 +23,7 @@
 <img width="350" height="350" alt="スクリーンショット 2026-09-22 111145" src="https://github.com/user-attachments/assets/518bf0a2-af5a-4e8a-a26f-43145fe94cf9" />
               ↓
 ログアウトをクリックすると最初の画面に戻る。
+
+データベース
+users：ユーザーの情報を保存する。
+posts：投稿内容と投稿日時、ユーザーIDを保存する。
