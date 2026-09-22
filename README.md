@@ -17,9 +17,9 @@
 <img width="350" height="350" alt="スクリーンショット 2026-09-22 113625" src="https://github.com/user-attachments/assets/5acea14b-68fc-4a18-82ec-3faf1fc417f0" />
               ↓
 登録したメールアドレスとパスワードを入力しログインボタンをクリック。
-<img width="440" height="457" alt="スクリーンショット 2026-09-22 110513" src="https://github.com/user-attachments/assets/54b2b623-9b35-4127-9cff-ff3e41ff1a4b" />
+<img width="350" height="350" alt="スクリーンショット 2026-09-22 110513" src="https://github.com/user-attachments/assets/54b2b623-9b35-4127-9cff-ff3e41ff1a4b" />
               ↓
 投稿内容を入力して投稿ボタンをクリック。
-<img width="682" height="757" alt="スクリーンショット 2026-09-22 111145" src="https://github.com/user-attachments/assets/518bf0a2-af5a-4e8a-a26f-43145fe94cf9" />
+<img width="350" height="350" alt="スクリーンショット 2026-09-22 111145" src="https://github.com/user-attachments/assets/518bf0a2-af5a-4e8a-a26f-43145fe94cf9" />
               ↓
-ログアウトをクリックするとっ最初の画面に戻る。
+ログアウトをクリックすると最初の画面に戻る。
