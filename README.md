@@ -14,7 +14,7 @@
 新規登録をクリックしアカウントの作成
               ↓
 ユーザー名とメールアドレス、パスワードを入力し登録ボタンをクリック。
-<img width="400" height="400" alt="スクリーンショット 2026-09-22 113625" src="https://github.com/user-attachments/assets/5acea14b-68fc-4a18-82ec-3faf1fc417f0" />
+<img width="350" height="350" alt="スクリーンショット 2026-09-22 113625" src="https://github.com/user-attachments/assets/5acea14b-68fc-4a18-82ec-3faf1fc417f0" />
               ↓
 登録したメールアドレスとパスワードを入力しログインボタンをクリック。
 <img width="440" height="457" alt="スクリーンショット 2026-09-22 110513" src="https://github.com/user-attachments/assets/54b2b623-9b35-4127-9cff-ff3e41ff1a4b" />
