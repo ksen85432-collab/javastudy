@@ -26,18 +26,13 @@ public class RegisterServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 
-		// UserModel を作成
-		User user = new User();
-		user.setName(name);
-		user.setEmail(email);
-
 		// DAO を呼び出す
 		RegisterDao dao = new RegisterDao();
 		boolean result = dao.register(name, email, password);
 		System.out.println(result);
 
 		if (result) {
-			
+			// ★登録成功時の処理
 			request.setAttribute("message", "登録成功");
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);

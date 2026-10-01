@@ -11,16 +11,15 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
-import dao.postDao;
-import model.post;
+import dao.PostDao;
+import model.Post;
 
-@WebServlet("/boardServlet")
-public class boardServlet extends HttpServlet {
+@WebServlet("/BoardServlet")
+public class BoardServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-	postDao dao = new postDao();
-	List<post> user = dao.getPostDatalist();
-
+	PostDao dao = new PostDao();
+	List<Post> user = dao.getPostDatalist();
 	
 		// ログイン成功時の処理
 		HttpSession session = request.getSession();
@@ -28,6 +27,5 @@ public class boardServlet extends HttpServlet {
 		request.setAttribute("postdate", user);
 		RequestDispatcher rd = request.getRequestDispatcher("board.jsp");
 		rd.forward(request, response);
-	
 	}
 }

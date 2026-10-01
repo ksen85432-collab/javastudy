@@ -21,13 +21,10 @@ public class RegisterDao {
 			ps.setString(3, password); 
 			
 			ps.executeUpdate();
-			
-			
 		} catch (SQLException e) {
 			e.printStackTrace();
 			return false;
 		}
-        
         return true;
     }
 }

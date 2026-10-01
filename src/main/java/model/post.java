@@ -2,7 +2,7 @@ package model;
 
 import java.sql.Timestamp;
 
-public class post {
+public class Post {
 	private int id;
     private int userId;
     private String name;

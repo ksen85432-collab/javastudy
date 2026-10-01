@@ -26,7 +26,6 @@ public class PostServlet extends HttpServlet {
 		int userId = value.getId();
 		String message = request.getParameter("message");
 
-        
 		String sql = "INSERT INTO posts (user_id, content) "
 				   + "VALUES (?, ?)";
 
@@ -37,16 +36,11 @@ public class PostServlet extends HttpServlet {
 			ps.setString(2, message);
 
 			ps.executeUpdate();
-			
-			
+				
 		} catch (SQLException e) {
 			e.printStackTrace();
-			
 		}
-		
-		
 		RequestDispatcher rd = request.getRequestDispatcher("board.jsp");
 		rd.forward(request, response);
-		
 	}
 }

@@ -15,7 +15,7 @@ public class LoginDao {
 				+ "FROM users WHERE email = ? AND password = ?";
 
 		try (Connection conn = DBUtil.getConnection();
-				PreparedStatement ps = conn.prepareStatement(sql)) {
+			PreparedStatement ps = conn.prepareStatement(sql)) {
 
 			ps.setString(1, email);
 			ps.setString(2, password); 
@@ -30,11 +30,9 @@ public class LoginDao {
 					return user;
 				}
 			}
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 		return null;
 	}
 }

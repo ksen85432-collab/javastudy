@@ -37,10 +37,11 @@ public class LoginServlet extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("user", user);
 			
-			request.setAttribute("message", "ログイン成功（仮状態。実装が進んだら掲示板ページへ）");
-			response.sendRedirect("boardServlet");
+			request.setAttribute("message", "ログイン成功");
+			response.sendRedirect("BoardServlet");
 		} else {
 			// ログイン失敗
+			
 			request.setAttribute("message", "メールアドレスまたはパスワードが違います");
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);
